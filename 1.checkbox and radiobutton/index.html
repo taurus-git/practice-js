@@ -8,19 +8,18 @@
 <body>
 <!--checkbox-->
 <label>
-    <input type="checkbox" id="checkboxExample" onchange="alertOnCheckbox()">
+    <input type="checkbox" id="checkboxExample"">
     Пример checkbox
 </label>
 <br>
 <!--radiobutton-->
-<section class="input-form">
-    <label><input type="radio" name="r1" value="5"> 0</label>
-    <label><input type="radio" name="r1" value="53"> 1</label>
-    <label><input type="radio" name="r1" value="535"> 2</label>
-<button onclick="alertOnRadiobutton()">Проверить какой из элементов выбран</button>
-</section>
-    <script src="script.js"></script>
+<form class="input-form">
+    <label><input type="radio" name="radioName" value="someValue0"> 0</label>
+    <label><input type="radio" name="radioName" value="someValue1"> 1</label>
+    <label><input type="radio" name="radioName" value="someValue2"> 2</label>
+</form>
+<button id="viewValueInLabel">Проверить какой из элементов выбран</button>
+
+<script src="script.js"></script>
 </body>
 </html>
-<!--
-test-4-->
