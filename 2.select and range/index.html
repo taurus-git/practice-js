@@ -7,17 +7,21 @@
 </head>
 <body>
     <!--select-->
-    <select name="" id="mySelect" onchange="fun1()">
+    <select name="" id="mySelect">
         <option value="">Apple</option>
         <option value="">Orange</option>
         <option value="">Pineapple</option>
         <option value="">Banana</option>
     </select>
+    <hr>
     <!--range-->
-    <input type="range" min="0" max="100" step="1" oninput="fun2()" id="r1">
-    <p id="one"></p>
-    <input type="text" id="i1">
-    <div id="test"></div>
+    <input type="range" min="0" max="100" step="1" id="myRange">
+    <span id="numeralRange"></span>
+    <div>
+        <input type="text" id="numField">
+    </div>
+    <div id="visualRange"></div>
+
     <script src="script.js"></script>
 </body>
 </html>

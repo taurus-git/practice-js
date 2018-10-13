@@ -1,17 +1,19 @@
 /*select*/
-function fun1() {
+document.getElementById('mySelect').onchange = function alertOnSelected() {
     var sel = document.getElementById('mySelect').selectedIndex;
     var options = document.getElementById('mySelect').options;
-    alert('Выбрана оция ' + options[sel].text);
-}
-/*range*/
-function fun2() {
-    var rng = document.getElementById('r1');
-    var p = document.getElementById('one');
-    var i1 = document.getElementById('i1');
-    var div = document.getElementById('test');
+    alert('Выбрана опция ' + options[sel].text);
+};
 
-    p.innerHTML = rng.value;
-    i1.value = rng.value;
-    div.style.width = rng.value + 'px';
-}
+/*range*/
+document.getElementById('myRange').oninput = function myRange() {
+
+    var range = document.getElementById('myRange');
+    var rangeNum = document.getElementById('numeralRange');
+    var numField = document.getElementById('numField');
+    var stringRange = document.getElementById('visualRange');
+
+    rangeNum.innerHTML = range.value;
+    numField.value = range.value;
+    stringRange.style.width = range.value + 'px';
+};
