@@ -1,11 +1,8 @@
 'use strict'
 /*checkbox*/
+document.getElementById('checkboxExample').onchange = function alertOnCheckbox() {
 
-function alertOnCheckbox() {
-    var chbox;
-    chbox = document.getElementById('checkboxExample');
-
-    if (chbox.checked) {
+    if (this.checked) {
         alert('Выбран');
     } else {
         alert('Не выбран');
@@ -14,12 +11,24 @@ function alertOnCheckbox() {
 
 /*radiobutton*/
 
-function alertOnRadiobutton() {
-    var radi = document.getElementsByName('r1');
-    
-    for (var i = 0; i < radi.length; i++) {
-        if (radi[i].checked) {
-            alert('Выбран ' + i + ' элемент')
-        }
+document.getElementById('viewValueInLabel').onclick = function alertOnRadiobutton() {
+    var radioElement = document.getElementsByName('radioName');
+
+    for (var i = 0; i < radioElement.length; i++) {
+            if (radioElement[i].checked) {
+                alert('Выбран ' + i + ' элемент')
+            }
     }
 }
+
+
+var form = document.querySelector('form');
+var radioElement = document.getElementsByName('radioName');
+
+form.addEventListener('click', function () {
+    for (var i = 0; i < radioElement.length; i++) {
+        if (radioElement[i].checked) {
+            console.log('Выбран ' + i + ' элемент')
+        }
+    }
+})

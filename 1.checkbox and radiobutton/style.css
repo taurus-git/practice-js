@@ -21,9 +21,11 @@ body{
     border-radius: 15px;
     background-color: aliceblue;
 }
-.input-form input{
+.input-form label{
     display: block;
 }
+
+/*test4*/
 /*
 !*@media queries*!
 !* Smartphones (вертикальная и горизонтальная ориентация) ----------- *!
