@@ -1,2 +1,5 @@
-/*
-1*/
+#visualRange {
+    width: 20px;
+    height: 20px;
+    background: green;
+}
