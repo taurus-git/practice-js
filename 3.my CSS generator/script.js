@@ -1,20 +1,40 @@
-function fun1() {
-    var rtl = document.getElementById('rtl').value;
-    var rtr = document.getElementById('rtr').value;
-    var rbr = document.getElementById('rbr').value;
-    var rbl = document.getElementById('rbl').value;
+var div = document.createElement('div');
+div.style.width = '200px';
+div.style.height = '100px';
+div.style.background = 'red';
+document.body.appendChild(div);
+div.id = div;
 
-    var ttl = document.getElementById('ttl');
-    var ttr = document.getElementById('ttr');
-    var tbr = document.getElementById('tbr');
-    var tbl = document.getElementById('tbl');
+function changeBorderRadius() {
+    var rangeTopLeft = document.getElementById('rangeTopLeft').value;
+    var rangeTopRight = document.getElementById('rangeTopRight').value;
+    var rangeBottomRight = document.getElementById('rangeBottomRight').value;
+    var rangeBottomLeft = document.getElementById('rangeBottomLeft').value;
 
-    var block = document.getElementById('block');
+    var textTopLeft = document.getElementById('textTopLeft');
+    var textTopRight = document.getElementById('textTopRight');
+    var textBottomRight = document.getElementById('textBottomRight');
+    var textBottomLeft = document.getElementById('textBottomLeft');
 
-    ttl.value = rtl;
-    ttr.value = rtr;
-    tbr.value = rbr;
-    tbl.value = rbl;
+    textTopLeft.value = rangeTopLeft;
+    textTopRight.value = rangeTopRight;
+    textBottomRight.value = rangeBottomRight;
+    textBottomLeft.value = rangeBottomLeft;
 
-    block.style.borderRadius = rtl + 'px ' + rtr + 'px ' + rbr + 'px ' + rbl + 'px ';
+    div.style.borderRadius = rangeTopLeft + 'px ' + rangeTopRight + 'px ' + rangeBottomRight + 'px ' + rangeBottomLeft + 'px ';
 }
+
+function changeBlockParameters() {
+    var rangeBlockWidth = document.getElementById('rangeBlockWidth').value;
+    var rangeBlockHeight = document.getElementById('rangeBlockHeight').value;
+    var inputBlockColor = document.getElementById('inputBlockColor').value;
+
+    textBlockWidth.value = rangeBlockWidth;
+    textBlockHeight.value = rangeBlockHeight;
+
+    div.style.width = rangeBlockWidth + 'px ';
+    div.style.height = rangeBlockHeight + 'px ';
+    div.style.background = inputBlockColor;
+}
+
+
