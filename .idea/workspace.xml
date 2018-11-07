@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de9a341c-3445-4c3d-b925-bca5ab1d0eb8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/js.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/practice-js.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace (2).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace (3).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace (4).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace (5).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace (6).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace (7).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace (8).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.simple task with array/.idea/7.simple task with array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.simple task with array/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.simple task with array/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.simple task with array/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.simple task with array/.idea/workspace.xml" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +19,19 @@
     <session id="-1471539045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -40,12 +48,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="973" />
+    <option name="y" value="400" />
+    <option name="width" value="932" />
+    <option name="height" value="662" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -62,10 +77,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/7.simple task with array" />
   </component>
   <component name="RunDashboard">
@@ -85,7 +100,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60ceada1-a000-4f2e-a602-10441fb34230" name="Default Changelist" comment="" />
+      <changelist id="de9a341c-3445-4c3d-b925-bca5ab1d0eb8" name="Default Changelist" comment="" />
       <created>1539176111533</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -99,13 +114,14 @@
       <workItem from="1541484032593" duration="180000" />
       <workItem from="1541573169896" duration="785000" />
       <workItem from="1541574926810" duration="466000" />
+      <workItem from="1541575786181" duration="164000" />
     </task>
-    <task id="LOCAL-00001" summary="simple solutions with checkbox and radiobutton">
-      <created>1539176204450</created>
+    <task id="LOCAL-00001" summary="Simple calculator is done. &#10;I copied this decision from YouTube tutorial.">
+      <created>1541575797784</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1539176204450</updated>
+      <updated>1541575797784</updated>
     </task>
     <task id="LOCAL-00002" summary="remove inline js from html code.&#10;add information about checked radiobutton in console.log">
       <created>1539328907590</created>
@@ -135,10 +151,11 @@
       <option name="project" value="LOCAL" />
       <updated>1541399916058</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58000" />
+    <option name="totallyTimeSpent" value="222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="-8" width="1851" height="1096" extended-state="6" />
@@ -161,6 +178,12 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple solutions with checkbox and radiobutton" />

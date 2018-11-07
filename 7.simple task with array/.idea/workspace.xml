@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="933debf6-accc-48fb-a847-6767afb24161" name="Default Changelist" comment="" />
+    <list default="true" id="d9e99afc-32d0-4066-9f51-29dcad53c002" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.checkbox and radiobutton/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../1.checkbox and radiobutton/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.checkbox and radiobutton/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../1.checkbox and radiobutton/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.checkbox and radiobutton/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../1.checkbox and radiobutton/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.select and range/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../2.select and range/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.select and range/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../2.select and range/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.select and range/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../2.select and range/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.my CSS generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3.my CSS generator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.my CSS generator/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../3.my CSS generator/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.my CSS generator/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../3.my CSS generator/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.hover menu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.hover menu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.hover menu/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../4.hover menu/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.hover menu/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../4.hover menu/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.simple calculator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../5.simple calculator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.simple calculator/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../5.simple calculator/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6.simple game/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6.simple game/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6.simple game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../6.simple game/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6.simple game/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../6.simple game/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,17 +41,24 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
+      <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="txt" value="15" />
+          <entry key="css" value="1" />
+          <entry key="html" value="1" />
+          <entry key="js" value="1" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
+      <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -59,7 +87,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../8.simple slider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -80,41 +108,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="933debf6-accc-48fb-a847-6767afb24161" name="Default Changelist" comment="" />
-      <created>1541575392784</created>
+      <changelist id="d9e99afc-32d0-4066-9f51-29dcad53c002" name="Default Changelist" comment="" />
+      <created>1541575949772</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541575392784</updated>
-      <workItem from="1541575394389" duration="390000" />
+      <updated>1541575949772</updated>
+      <workItem from="1541575951059" duration="140000" />
     </task>
-    <task id="LOCAL-00001" summary="commit for pull">
-      <created>1541575718696</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1541575718696</updated>
-    </task>
-    <task id="LOCAL-00002" summary="commit for pull">
-      <created>1541575760128</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1541575760129</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="-8" width="1851" height="1096" extended-state="6" />
@@ -124,15 +128,15 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32911393" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5002758" side_tool="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997242" weight="0.32911393" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -144,8 +148,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit for pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit for pull" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
