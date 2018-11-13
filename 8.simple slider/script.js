@@ -33,14 +33,13 @@ var sliderString = document.getElementById('slider-string');
 
 
 function autoSlider() {
-    timer = setTimeout(sliderLeft, 1000);
-}
-
-function sliderLeft() {
-    left = left - 256;
-    if (left < - 256*5) {
-        left = 0;
-    };
-    sliderString.style.left = left +'px';
-    autoSlider();
+    timer = setTimeout(function () {
+        left = left - 256;
+        if (left < - 256*5) {
+            left = 0;
+            clearTimeout(timer);
+        };
+        sliderString.style.left = left +'px';
+        autoSlider();
+    }, 1000);
 }
