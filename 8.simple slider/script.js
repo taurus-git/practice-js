@@ -29,6 +29,8 @@ autoSlider();
 
 var timer;
 var left = 0;
+var sliderString = document.getElementById('slider-string');
+
 
 function autoSlider() {
     timer = setTimeout(sliderLeft, 1000);
