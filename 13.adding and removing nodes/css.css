@@ -1,0 +1,23 @@
+.item-container{
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+    height: auto;
+    background-color: bisque;
+}
+.colorful-container{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.important-container{
+    background-color: red;
+}
+.positive-container{
+    background-color: green;
+}
+.simple-container{
+    background-color: gray;
+}
