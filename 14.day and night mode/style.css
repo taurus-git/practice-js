@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.wrapper{
+   padding: 8px;
+}
+.night-mode{
+    background-color: #242424;
+    color: #e1e1e1;
+}
