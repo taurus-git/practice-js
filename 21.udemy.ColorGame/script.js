@@ -1,5 +1,5 @@
 var colors = generateRandomColors(6);
-var squares = document.querySelectorAll('.square');
+var squares = document.querySelectorAll(".square");
 var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
@@ -15,6 +15,7 @@ resetButton.addEventListener("click", function () {
         squares[i].style.backgroundColor = colors[i];
     }
     h1.style.backgroundColor = "#232323";
+    resetButton.textContent = "New Colors";
 });
 
 colorDisplay.textContent = pickedColor;
@@ -24,7 +25,7 @@ for (var i = 0; i < squares.length; i++){
     squares[i].style.backgroundColor = colors[i];
 
     //add click listeners to squares
-    squares[i].addEventListener('click', function() {
+    squares[i].addEventListener("click", function() {
       var clickedColor = this.style.backgroundColor;
 
       if (clickedColor === pickedColor){
